@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #8B0000; /* Dark Red */
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #FF6347; /* Tomato Red */
+    background-image: url(./Images/bg3.jpg);
+    color: white;
+    text-align: center;
+    height: 400px;
+    padding-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DC143C; /* Crimson Red */
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  /* Services Section */
+  #services {
+    padding: 40px 20px;
+    background-color: #FFE4E1; /* Light Red Background */
+  }
+  
+  .service {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #FF4500; /* Orange Red border */
+    
+  }
+  
+  .service h3 {
+    color: #B22222; /* Firebrick Red */
+  }
+  
+  .service p {
+    font-size: 1.1rem;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 40px 20px;
+    background-color: #FA8072; /* Salmon Red */
+  }
+  
+  #pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  #pricing th, #pricing td {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background-color: #FF6347; /* Tomato Red */
+    color: white;
+  }
+  
+  #pricing th {
+    background-color: #B22222; /* Firebrick Red */
+  }
+  
+  /* About Section */
+  #about {
+    padding: 40px 20px;
+    background-color: #FFCCCB; /* Light Coral Red */
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #8B0000; /* Dark Red */
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 40px 20px;
+    background-color: #FFC1C1; /* Light Reddish */
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8B0000; /* Dark Red Border */
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    padding: 10px;
+    background-color: #DC143C; /* Crimson Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #B22222; /* Firebrick Red */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8B0000; /* Dark Red */
+    background-image: url(./Images/bg3.jpg);
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: block;
+      text-align: center;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .hero {
+      height: 300px;
+      padding-top: 100px;
+    }
+  }
+  nav ul li a:hover {
+    color: #007bff; /* Changes the color of the link on hover */
+    text-decoration: underline; /* Optionally add underline on hover */
+  }
+
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    font-family: Arial, sans-serif; /* Choose the font family */
+    font-weight: bold; /* Set font weight: can be normal, bold, or a number (100-900) */
+    font-style: italic; /* Set font style: normal, italic, or oblique */
+    color: #333; /* Set the font color */
+  }
+
+  .s2{
+    display: flex; /* This aligns the boxes horizontally */
+    justify-content: space-between; /* Space between boxes, or use other options */
+    align-items: center;
+  }
